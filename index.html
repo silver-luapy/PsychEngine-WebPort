@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>PsychEngine-WebPort</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- PixiJS para WebGL -->
+<script src="https://pixijs.download/release/pixi.min.js"></script>
+
+<style>
+  body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: Arial, sans-serif;
+  }
+  #loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+  }
+</style>
+</head>
+<body>
+<div id="loading">PsychEngine-WebPort Booting...</div>
+
+<script type="module">
+  // Importa el runtime
+  import * as Engine from "./engine/runtime.js";
+
+  // Función asíncrona para inicializar todo
+  async function bootEngine() {
+    // Inicializa renderer y ticker
+    await Engine.init();
+
+    // Carga el núcleo Psych
+    await Engine.loadCore("psych-core");
+
+    // Carga un mod de prueba
+    await Engine.loadMod("base-test");
+
+    // Lanza la escena inicial de strumline
+    await Engine.showStrumlineScene();
+  }
+
+  bootEngine();
+</script>
+</body>
+</html>
