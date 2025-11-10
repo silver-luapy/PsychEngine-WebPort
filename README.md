@@ -15,8 +15,8 @@ ahora es mucho mas facil jugar PsychEngine!!
 
 1.-Ve a assets y modifica modList.txt poniendo el nombre de la carpeta de tu mod
 
-```bash
-public/mods/mi-mod/  
+```
+mods/mi-mod/  
 ├── characters/    <-- Json(personajes)         
 ├── songs/        <-- Ogg (Voices) Ogg (Inst)
 ├── images/           
