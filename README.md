@@ -13,8 +13,12 @@ ahora es mucho mas facil jugar PsychEngine!!
 
 ### El modding nuca fue más facil!!
 
-1.-Ve a assets y modifica modList.txt poniendo el nombre de la carpeta de tu mod
+1.-crea tu carpeta de mods y pon tus assets dentro de ella (usando la base de mods)
+2.-Ve a assets y modifica modList.txt poniendo el nombre de la carpeta de tu mod
 
+### Base de mods
+###         |
+###         v
 ```
 mods/mi-mod/  
 ├── characters/    <-- Json(personajes)         
