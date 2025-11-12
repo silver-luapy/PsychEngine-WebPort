@@ -17,7 +17,6 @@ ahora es mucho mas facil jugar PsychEngine!!
 2.-Ve a assets y modifica modList.txt poniendo el nombre de la carpeta de tu mod
 
 ### Base de mods
-###         |
 ###         v
 ```
 mods/mi-mod/  
