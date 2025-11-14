@@ -38,5 +38,5 @@ mods/mi-mod/
 ├── fonts/         <-- Fuentes de texto ttf aqui               
 ├── custom_notetypes <-- Lua
 ├── custom_events  <-- Lua   
-└── scripts/       <-- Lua        
+└── scripts/       <-- Lua (.Hx no son compatibles)       
 ```
