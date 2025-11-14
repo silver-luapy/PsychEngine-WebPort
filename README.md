@@ -7,7 +7,7 @@ ahora es mucho mas facil jugar PsychEngine!!
 | Caracteristica | PsychEngine-WebPort | Psych Engine-Kade Engine |
 |----------------|----------------|-----------------------|
 |**Compilación** |No se necesta   | Haxe 4.3.4 Lime 8.1.2 Openfl 9.3.3 y más |
-|**Tiempo de setup**| 2 minutos | Horas (dependiendo de tu hardware y internet)|
+|**Tiempo de setup**| 2 minutos | Horas (dependiendo de tu hardware e internet)|
 |**Tamaño de descarga**|+500mb|+15 GB|
 |**Plataforma**| Opera-Edge-Chrome-Firefox-Chromium | Ejecutable nativo|
 
